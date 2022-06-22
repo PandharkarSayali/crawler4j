@@ -94,6 +94,7 @@ public class URLCanonicalizerTest {
                     "http://seagateplastics.com/Stock_Plastics_Catalog/images_catalog/SG2078 PDF (1).pdf)"));
         assertEquals("http://www.example.com/search/?query=hello%E3%80%80world",
                 URLCanonicalizer.getCanonicalURL("http://www.example.com/search/?query=hello　world"));
+        system.out.println("test");
         //
     }
 }
